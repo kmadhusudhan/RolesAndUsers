@@ -18,7 +18,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.4'
 gem 'jquery-ui-rails'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
@@ -33,7 +33,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '>= 3.4.0'
 gem 'bootstrap-generators'
 gem 'jquery-datatables-rails', github: 'rweng/jquery-datatables-rails'
 gem 'record_tag_helper', '~> 1.0'
